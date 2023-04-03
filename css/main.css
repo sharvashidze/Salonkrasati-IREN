@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 a {
@@ -34,21 +34,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media screen and (min-width: 480px) {
-  .conteiner {
-    width: 480px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .conteiner {
-    width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .conteiner {
-    width: 1200px;
-  }
-}
 
 .is-hidden {
   position: absolute;
@@ -62,7 +47,9 @@ img {
   text-align: center;
 }
 
-.title {
-  color: rgb(140, 51, 51);
-  font-size: 20px;
+.text {
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Inter";
 }/*# sourceMappingURL=main.css.map */
