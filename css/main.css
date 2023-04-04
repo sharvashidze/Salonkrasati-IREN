@@ -1,5 +1,5 @@
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Charm", sans-serif;
 }
 
 a {
@@ -52,4 +52,33 @@ img {
   font-size: 30px;
   font-weight: 900;
   font-family: "Inter";
+}
+
+.logo {
+  position: absolute;
+  font-family: "Charm";
+  font-weight: 700;
+}
+
+.conteiner-position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+@media screen and (min-width: 480px) {
+  .nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .nav-contacts {
+    display: none;
+  }
+}
+
+.hero-foto {
+  position: relative;
 }/*# sourceMappingURL=main.css.map */
