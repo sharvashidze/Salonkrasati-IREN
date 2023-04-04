@@ -1,15 +1,17 @@
 .text{
-    color: black;
+    font-style: normal;
+    font-weight: 600;
     font-size: 30px;
-    font-weight: 900;
-    
+    line-height: 30px;
     font-family: 'Inter';
+    color: black;
     
 }
 .logo{
     position: absolute;
     font-family: 'Charm';
     font-weight: 700;
+    margin-left: 10px;
 }
 .conteiner-position{
     position: absolute;
